@@ -41,6 +41,7 @@
 			font-size: 40px;
 			font-weight: bold;
 		}
+			
 		/* ------------------Landing------------------------*/
 		#landing{
 			display: flex; /*set as a flex container*/
@@ -60,7 +61,10 @@
 
 		}
 		/* ------------------Cards------------------------*/
-		.cards{
+		@media screen and (min-width: 700px){
+        ...        
+			}
+        	.cards{
 			display: flex; /* create flex conatiner*/
 			flex-direction:column;/*for mobile navigation*/
 			justify-content:space-around;/*spacing for cards*/
